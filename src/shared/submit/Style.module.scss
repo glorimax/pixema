@@ -1,0 +1,18 @@
+@import '../../App.styles.scss';
+
+.submit {
+  background: var(--primary-purple-first);
+  color: var(--basic-white-pixema);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 16px 32px;
+  cursor: pointer;
+  border: 0px;
+  outline: 0px;
+  transition: 0.3s;
+
+  &:hover {
+    background: var(--primary-purple-second);
+  }
+}

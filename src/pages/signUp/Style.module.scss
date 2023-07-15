@@ -1,0 +1,9 @@
+@import '../../App.styles.scss';
+
+.container_form{
+    max-width: 574px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 10px;
+}

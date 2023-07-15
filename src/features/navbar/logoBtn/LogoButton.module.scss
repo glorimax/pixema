@@ -1,4 +1,13 @@
-@import '../../../../App.styles.scss';
+@import '../../../App.styles.scss';
+
+.logo{
+  width: 158px;
+  padding-left: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .logo_button {
   border: 0;
@@ -14,6 +23,7 @@
     transform: scale(1.05);
   }
 }
+
 
 .light {
   path:nth-child(n + 4) {

@@ -1,0 +1,39 @@
+@import '../../App.styles.scss';
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+
+  .label {
+    font-size: 16px;
+    color: var(--basic-white-pixema);
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .input {
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: var(--bg-graphite-pixema);
+    color: var(--basic-white-pixema);
+    margin-bottom: 20px;
+    outline: 0;
+    padding: 16px 32px;
+  }
+
+  .input:focus {
+    outline: 3px solid var(--primary-purple-first);
+  }
+}
+
+// .light {
+//   .label {
+//     color: var(--bg-black-pixema);
+//   }
+
+//   .input {
+//     background: var(--basic-white-pixema);
+//     color: var(--bg-black-pixema);
+//     border: 2px solid var(--basic-light-pixema);
+//   }
+// }
